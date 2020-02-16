@@ -18,7 +18,6 @@ public class Repository {
         return name;
     }
 
-
     public ArrayList<Commit> getCommits() {
         return commits;
     }
@@ -33,9 +32,9 @@ public class Repository {
     }
 
     public ArrayList<Commit> revert(int commitUniqueId){
-        Commit commit = findCommitById(commitUniqueId);
+        Commit commitToRevertTo = findCommitById(commitUniqueId);
         ArrayList<Commit> revertedRepo = new ArrayList<Commit>();
-        for (int i = 0; i <= this.commits.indexOf(commit); i++){
+        for (int i = 0; i <= this.commits.indexOf(commitToRevertTo); i++){
             revertedRepo.add(this.commits.get(i));
         }
         return revertedRepo;

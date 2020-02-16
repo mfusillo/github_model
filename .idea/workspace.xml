@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bcd0d89d-5632-4e64-899c-26b59915d6da" name="Default Changelist" comment="" />
+    <list default="true" id="bcd0d89d-5632-4e64-899c-26b59915d6da" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Repository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Repository.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,6 +19,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -24,6 +31,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1XqMPu1O28BJyjKk8aKpvrd7bOL" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -31,12 +39,13 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
   </component>
-  <component name="RunManager" selected="JUnit.GitHubTest.can_sort_accounts_by_username_in_alphabetic_order">
+  <component name="RunManager" selected="JUnit.RepositoryTest">
     <configuration name="GitHubAccountTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="github_model" />
       <option name="PACKAGE_NAME" value="" />
@@ -87,11 +96,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RepositoryTest" />
         <item itemvalue="JUnit.GitHubTest.can_sort_accounts_by_username_in_alphabetic_order" />
         <item itemvalue="JUnit.RepositoryTest.can_revert_repo_to_given_commit" />
         <item itemvalue="JUnit.GitHubAccountTest.can_get_repo_with_most_commits" />
         <item itemvalue="JUnit.GitHubAccountTest" />
-        <item itemvalue="JUnit.RepositoryTest" />
       </list>
     </recent_temporary>
   </component>
